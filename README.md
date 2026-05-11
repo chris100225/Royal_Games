@@ -21,8 +21,8 @@
 
 ## 💻 Sobre o Projeto
 Royal Games é um projeto desenvolvido pela turma de desenvolvimento de sistemas do SENAI de Informática, com o objetivo de aplicar o conhecimento dos alunos com a ferramenta React e Next.js, um projeto planejado para catalgar os jogos de uma loja física, ou seja, sem vendas dentro da plataforma.
-
 O repositório possui Back, Front e Banco de dados, que foram propostos pelas professoras Késsia e Samanta.
+
 ---
 
 ## 🛠 Tecnologias
