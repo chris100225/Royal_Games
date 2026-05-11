@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-padrao);
+}
+
+:root {
+    --fundo-escuro: #0B0616;
+    --fundo-claro: #221C2D;
+    --vermelho: #FF004C;
+    --roxo: #7A3BFF;
+    --branco: #FFFFFF;
+    --cinza: #D6D2E6;
+
+
+    --tamanho-titulo: 36px;
+    --tamanho-titulo-responsivo: 35px;
+    --tamanho-subtitulo: 32px;
+    --tamanho-texto-btn: 20px;
+    --fonte-texto: 24px;
+}
+
+.layout_guide {
+    width: 80%;
+}
