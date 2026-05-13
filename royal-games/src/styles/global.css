@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: var(--font-padrao);
+    font-family: var(--fonte-padrao);
 }
 
 :root {
@@ -17,8 +17,8 @@
     --tamanho-titulo: 36px;
     --tamanho-titulo-responsivo: 35px;
     --tamanho-subtitulo: 32px;
-    --tamanho-texto-btn: 20px;
-    --fonte-texto: 24px;
+    --tamanho-texto-btn: 150%;
+    --fonte-texto: 130%;
 }
 
 .layout_guide {

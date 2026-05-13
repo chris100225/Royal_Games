@@ -1,0 +1,50 @@
+/*  */
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 13vh;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(34, 28, 45, 1) 100%);
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+}
+
+#logo {
+    width: 11%;
+}
+
+#botoesAcesso {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    font-family: var(--fonte-secundaria);
+}
+
+#catalogo {
+    font-size: var(--tamanho-texto-btn);
+    font-family: var(--fonte-secundaria);
+    text-decoration: none;
+    color: var(--branco);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#login {
+    font-size: var(--tamanho-texto-btn);
+    font-family: var(--fonte-secundaria);
+    text-decoration: none;
+    color: var(--branco);
+    border: 2px solid var(--vermelho);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 51%;
+    height: 53px;
+    border-radius: 10px;
+}
