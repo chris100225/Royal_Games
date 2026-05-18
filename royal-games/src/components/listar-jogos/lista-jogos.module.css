@@ -1,0 +1,59 @@
+#lista {
+    width: 40%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 5%;
+}
+
+#pesquisa {
+    border-width: 2px;
+    border-style: solid;
+    font-size: var(--fonte-texto);
+    padding: 2%;
+    backdrop-filter: blur(13px) saturate(59%);
+    -webkit-backdrop-filter: blur(13px) saturate(59%);
+    background-color: rgba(122, 59, 255, 0.125);
+    border-radius: 8px;
+    border: 1px solid rgba(122, 59, 255, 1);
+    font-family: var(--fonte-secundaria);
+
+}
+
+#pesquisa::placeholder {
+    color: var(--cinza);
+}
+
+.filtro {
+    font-family: var(--fonte-secundaria);
+    color: var(--cinza);
+    border-width: 2px;
+    border-style: solid;
+    font-size: var(--fonte-texto);
+    padding: 2%;
+    backdrop-filter: blur(13px) saturate(59%);
+    -webkit-backdrop-filter: blur(13px) saturate(59%);
+    background-color: rgba(122, 59, 255, 0.125);
+    border-radius: 8px;
+    border: 1px solid rgba(122, 59, 255, 1);
+}
+
+.opcoes {
+    font-family: var(--fonte-secundaria);
+    color: var(--cinza);
+
+    font-size: 90%;
+    padding: 2%;
+
+    backdrop-filter: blur(13px) saturate(59%);
+    -webkit-backdrop-filter: blur(13px) saturate(59%);
+    background-color: rgba(17, 25, 40, 0.90);
+}
+
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2rem;
+    padding: 1rem;
+    width: 80%;
+}

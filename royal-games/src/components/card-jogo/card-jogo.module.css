@@ -1,0 +1,78 @@
+#card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(13px) saturate(59%);
+    -webkit-backdrop-filter: blur(13px) saturate(59%);
+    background-color: rgba(122, 59, 255, 0.125);
+    border-radius: 8px;
+    border: 1px solid rgba(122, 59, 255, 1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+    width: 17vw;
+    height: 65%;
+}
+
+#alinhamento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 85%;
+}
+
+#card img {
+    width: 80%;
+}
+
+#titulo {
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--branco);
+}
+
+#preco {
+    font-size: 16px;
+    color: var(--branco);
+
+}
+
+#botaoDetalhe {
+    text-decoration: none;
+    color: var(--branco);
+    background-color: transparent;
+    border-radius: 10px;
+    border: 2px solid var(--vermelho);
+    padding: 8px 30px;
+}
+
+#botaoDetalhe:hover {
+    background-color: var(--vermelho);
+    color: var(--branco);
+    transition: 0.3s;
+}
+
+#botoes {
+    display: flex;
+    gap: 30px;
+}
+
+.botoesCard {
+    /* display: none; */
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 8px 30px;
+    color: var(--branco);
+    border: none;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 2px solid var(--vermelho);
+    cursor: pointer;
+}
+
+.botoesCard:hover {
+    background-color: var(--vermelho);
+    color: var(--branco);
+    transition: 0.3s;
+}
